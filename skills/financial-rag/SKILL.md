@@ -1,3 +1,8 @@
+---
+name: financial-rag
+description: Indexação semântica e busca híbrida (BM25 + vetorial) sobre PDFs financeiros (DFP, ITR, DRE). Use sempre que receber um PDF financeiro para indexar e consultar seções específicas com precisão.
+---
+
 # Skill: financial-rag
 
 Indexação semântica e busca híbrida (BM25 + vetorial) sobre PDFs financeiros.
