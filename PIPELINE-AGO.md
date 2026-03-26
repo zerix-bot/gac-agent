@@ -27,6 +27,14 @@ python3 /data/.openclaw/workspace-gac/skills/financial-rag/rag.py list
 
 - Se o documento estiver indexado: anotar a coleção e prosseguir.
 - Se não estiver: solicitar o PDF ao usuário, indexar e continuar.
+- Se o usuário informar múltiplas coleções no comando, usar todas nas queries da Etapa 1.
+
+**Suporte a múltiplas coleções:**
+Quando o usuário informar mais de uma coleção, repetir cada query do RAG para cada coleção e consolidar os resultados antes de redigir. Exemplo de comando com múltiplos documentos:
+```
+Executar pipeline AGO sobre Padtec — exercício 2025
+Documentos: doc_bd714301c540, doc_XXXX, doc_YYYY
+```
 
 ---
 

@@ -23,6 +23,9 @@ python3 /data/.openclaw/workspace-gac/skills/financial-rag/rag.py list
 > Informar ao usuário: "Documento da [Empresa] encontrado no RAG (coleção: `doc_XXXX`). Posso iniciar a análise sem necessidade de novo upload."
 > Anotar o nome da coleção e pular para a **Etapa 2**.
 
+**Cenário C — múltiplos documentos informados:**
+> Se o usuário informar mais de uma coleção no comando, usar todas nas queries. Repetir cada query para cada coleção e consolidar os resultados antes de redigir.
+
 **Cenário B — documento não indexado:**
 > Prosseguir para a **Etapa 1** (coleta de fontes).
 
