@@ -1,0 +1,8 @@
+pareceres/
+memory/
+documento_gac.pdf
+*.pdf
+__pycache__/
+**/__pycache__/
+*.pyc
+.env
