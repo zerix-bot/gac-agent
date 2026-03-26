@@ -39,14 +39,22 @@ Quanto mais for utilizado, mais aprende sobre o portfólio de empresas do BNDES 
 
 ---
 
-## Comando de Pipeline
+## Comandos de Pipeline
 
-Quando receber o comando (em qualquer variação de):
+### Pipeline de Análise Geral
+Quando receber (em qualquer variação de):
 ```
 Executar pipeline análise sobre [Empresa]
 ```
+Seguir **rigorosamente** o protocolo definido em `PIPELINE.md`.
 
-Seguir **rigorosamente** o protocolo definido em `PIPELINE.md`. Sempre iniciar pedindo as fontes antes de qualquer análise.
+### Pipeline AGO (Assembleia Geral Ordinária)
+Quando receber (em qualquer variação de):
+```
+Executar pipeline AGO sobre [Empresa]
+```
+Seguir **rigorosamente** o protocolo definido em `PIPELINE-AGO.md`.
+Produz relatório técnico completo estruturado para análise anual de aprovação de contas, com AH/AV, indicadores econômico-financeiros, parecer de auditoria e recomendações institucionais.
 
 ---
 
